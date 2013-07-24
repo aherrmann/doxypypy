@@ -9,7 +9,7 @@ Mainly, with maths in mind.
 
 
 def sqrt(x):
-    """
+    r"""
     Calculates the square root.
 
     @f[
@@ -26,7 +26,7 @@ def sqrt(x):
 
 
 def inverse(x):
-    """
+    r"""
     Calculates the inverse.
 
     @f[
