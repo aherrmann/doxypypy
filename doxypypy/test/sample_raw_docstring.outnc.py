@@ -19,26 +19,26 @@
 #
 # @return
 #        The square-root.
-#    """
-#    pass
-#
-#
-#def inverse(x):
 #
 # @namespace sample_raw_docstring.sqrt
-## @brief     return 1/x
-# @namespace sample_raw_docstring.inverse
-
 
 def sqrt(x):
-    Calculates the inverse.
+    pass
 
-    @f[
-    \frac{1}{x}
-    @f]
 
-    Args:
-        x:  The argument.
+## @brief     Calculates the inverse.
+#
+#    @f[
+#    \frac{1}{x}
+#    @f]
+#
+#
+# @param		x	The argument.
+#
+# @return
+#        The inverse.
+#
+# @namespace sample_raw_docstring.inverse
 
-    Returns:
-        The inverse.
+def inverse(x):
+    return 1/x

@@ -19,24 +19,24 @@
 #
 # @return
 #        The square-root.
-#    """
-#    pass
 #
-#
-#def inverse(x):
-#
-## @brief     return 1/x
-
 
 def sqrt(x):
-    Calculates the inverse.
+    pass
 
-    @f[
-    \frac{1}{x}
-    @f]
 
-    Args:
-        x:  The argument.
+## @brief     Calculates the inverse.
+#
+#    @f[
+#    \frac{1}{x}
+#    @f]
+#
+#
+# @param		x	The argument.
+#
+# @return
+#        The inverse.
+#
 
-    Returns:
-        The inverse.
+def inverse(x):
+    return 1/x
