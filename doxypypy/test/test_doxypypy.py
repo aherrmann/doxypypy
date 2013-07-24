@@ -202,6 +202,13 @@ class TestDoxypypy(unittest.TestCase):
         sampleName = 'doxypypy/test/sample_maze.py'
         self.compareAgainstGoldStandard(sampleName)
 
+    def test_raw_docstring(self):
+        """
+        Test the raw-docstring example.
+        """
+        sampleName = 'doxypypy/test/sample_raw_docstring.py'
+        self.compareAgainstGoldStandard(sampleName)
+
 
 if __name__ == '__main__':
     # When executed from the command line, run all the tests via unittest.
